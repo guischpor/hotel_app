@@ -41,12 +41,12 @@ export default  Header = () => {
 const styles = StyleSheet.create({
     imgHotelMin: {
         width: '100%',
-        height: 400
+        height: 400,
     },
     topButtons: {
         ...gs.rowBetween,
         position: 'absolute',
-        top: 64,
+        top: 35,
         left: 32,
         right: 32
     },
