@@ -1,17 +1,28 @@
-
+//imports react
 import React, {Component} from 'react';
 import {
-  StyleSheet,
   View,
   Text,
+  StyleSheet,
+  ScrollView
 } from 'react-native';
+
+//imports components thirds
+
+//import components
+import HotelView from './screens/HotelView/index'
+
+//import styles
+import {
+  colors
+} from './styles/styles'
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>App 2</Text>
-      </View>
+      <ScrollView style={styles.container}>
+        <HotelView />
+      </ScrollView>
     )
   }
 }
@@ -19,7 +30,6 @@ export default class App extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
+    backgroundColor: colors.darkBg
   },
 })
