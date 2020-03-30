@@ -15,6 +15,10 @@ import {
 import Header from './components/Header'
 import BookMark from './components/BookMark'
 import About from './components/About'
+import Stats from './components/Stats'
+import Amenities from './components/Amenities'
+import Address from './components/Address'
+
 
 export default  index = () => {
     return (
@@ -26,6 +30,9 @@ export default  index = () => {
             <View>
                 <BookMark />
                 <About />
+                <Stats />
+                <Amenities />
+                <Address />
             </View>
 
         </View>
@@ -37,5 +44,4 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: colors.darkBg
     },
-    
 })
