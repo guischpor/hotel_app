@@ -25,6 +25,15 @@ const IconBar = () => (
 )
 
 ---------------------------------
+react native icons vector
+-- npm install --save react-native-vector-icons
+
+-- react-native link react-native-vector-icons
+
+import Icon from 'react-native-vector-icons/FontAwesome';
+const myIcon = <Icon name="rocket" size={30} color="#900" />;
+
+---------------------------------
 
 Likagem dos assets
 
