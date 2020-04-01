@@ -18,6 +18,7 @@ import About from './components/About'
 import Stats from './components/Stats'
 import Amenities from './components/Amenities'
 import Address from './components/Address'
+import Extras from './components/Extras'
 
 
 export default  index = () => {
@@ -33,6 +34,7 @@ export default  index = () => {
                 <Stats />
                 <Amenities />
                 <Address />
+                <Extras />
             </View>
 
         </View>
